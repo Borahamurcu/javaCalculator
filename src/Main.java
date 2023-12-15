@@ -52,6 +52,7 @@ public class Main {
                 System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -59,6 +60,7 @@ public class Main {
                     System.out.println("İslemin sonucu: "+toplama(a,b));
                 }
                 else if(kacsayi==3){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -75,6 +77,7 @@ public class Main {
                 System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -82,6 +85,7 @@ public class Main {
                     System.out.println("İslemin sonucu: "+cikarma(a,b));
                 }
                 else if(kacsayi==3){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -99,6 +103,7 @@ public class Main {
                 System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -106,6 +111,7 @@ public class Main {
                     System.out.println("İslemin sonucu: "+carpma(a,b));
                 }
                 else if(kacsayi==3){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
@@ -120,6 +126,7 @@ public class Main {
                         "2 rakamını yazınız ardından değerlerinizi giriniz->");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
+                    System.out.println("Değerleriniz -2147483648 ile 2147483647 arasında olmalıdır!");
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
