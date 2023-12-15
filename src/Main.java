@@ -116,13 +116,19 @@ public class Main {
                 else
                     System.out.println("Böyle bir değer bulunmuyor");
             } else if (islem.equals("4")) {
-                System.out.print("Sadece 2 değerli işlem yapabilirsiniz.");
+                System.out.print("Sadece 2 değerli işlem yapabilirsiniz.\n" +
+                        "2 rakamını yazınız ardından değerlerinizi giriniz->");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
                     System.out.print("a:");
                     int a= scanner.nextInt();
                     System.out.print("b:");
                     int b=scanner.nextInt();
+                    if (b==0){
+                        System.out.print("Bir sayının 0 ile bölümü mantıklı bir sonuç vermez.\n" +
+                                "Lütfen farklı bir değer giriniz\n" +
+                                "b değişkeninin yeni değeri ->");
+                        b= scanner.nextInt();}
                     System.out.println("İşlemin sonucu: "+ bolme(a,b));
                 }
                 else
