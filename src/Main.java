@@ -37,18 +37,19 @@ public class Main {
                 "3.Çarpma\n" +
                 "4.Bölme\n"+
                 "Çıkmak için q'ya basınız\n";
+        System.out.print(islemler);
         System.out.println("*****************************");
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.print(islemler);
+
             System.out.print("İşlem Seçiniz:");
-            System.out.println("*****************************");
             String islem = scanner.nextLine();
             if (islem.equals("q")){
                 System.out.println("İşlemden çıkılıyor...\nÇıktı");
                 break;
-            } else if (islem.equals("1")) {
-                System.out.print("Kaç haneli işlem yapmak istiyorsun(2 veya 3):");
+            }
+            else if (islem.equals("1")) {
+                System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
                     System.out.print("a:");
@@ -71,7 +72,7 @@ public class Main {
 
             }
             else if (islem.equals("2")) {
-                System.out.print("Kaç haneli işlem yapmak istiyorsun(2 veya 3):");
+                System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
                     System.out.print("a:");
@@ -95,7 +96,7 @@ public class Main {
 
             }
             else if (islem.equals("3")) {
-                System.out.print("Kaç haneli işlem yapmak istiyorsun(2 veya 3):");
+                System.out.print("Kaç değerli işlem yapmak istiyorsun(2 veya 3):");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
                     System.out.print("a:");
@@ -115,7 +116,7 @@ public class Main {
                 else
                     System.out.println("Böyle bir değer bulunmuyor");
             } else if (islem.equals("4")) {
-                System.out.print("Kaç haneli işlem yapmak istiyorsun(Yalnızca 2):");
+                System.out.print("Sadece 2 değerli işlem yapabilirsiniz.");
                 int kacsayi= scanner.nextInt();
                 if(kacsayi==2){
                     System.out.print("a:");
@@ -129,6 +130,8 @@ public class Main {
 
 
             }
+            else
+                System.out.println("1,2,3,4 veya q değerlerini giriniz.");
 
         }
     }
